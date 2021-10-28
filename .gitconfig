@@ -1,0 +1,9 @@
+[user]
+	email = 2452078981@qq.com
+	name = zhubohan
+[init]
+	defaultBranch = master
+[credential]
+	helper = store
+[core]
+	editor = vim
