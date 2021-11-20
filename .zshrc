@@ -7,7 +7,7 @@
 
 
 #startup behavior
-# xinput list |  grep Touchpad | awk '{print $6}' | tr -cd "[0-9]" | xargs xinput disable
+xinput list |  grep Touchpad | awk '{print $6}' | tr -cd "[0-9]" | xargs xinput disable
 
 git config --global user.email "2452078981@qq.com"
 git config --global user.name "zhubohan"
